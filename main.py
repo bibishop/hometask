@@ -18,3 +18,8 @@ while True:
                 correct_guesses += 1
         if correct_guesses == 3:
             total_weight = weight1 + weight2 + weight3
+            if total_weight == 713:
+                print("Congratulations! You found all the cargo!")
+                break
+            else:
+                print("Weights do not sum to 713.")
