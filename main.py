@@ -16,3 +16,5 @@ while True:
         for g in [guess1, guess2, guess3]:
             if g in locations:
                 correct_guesses += 1
+        if correct_guesses == 3:
+            total_weight = weight1 + weight2 + weight3
