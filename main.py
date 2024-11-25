@@ -8,3 +8,6 @@ while True:
     print("Enter the second location and weight:")
     guess2 = int(input())
     weight2 = int(input())
+    print("Enter the third location and weight:")
+    guess3 = int(input())
+    weight3 = int(input())
